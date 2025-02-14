@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SinglePage.Sample01.props" />
+</Project>
