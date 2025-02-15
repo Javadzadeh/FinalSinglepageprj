@@ -1,4 +1,4 @@
-﻿@{
+﻿ @{
     ViewBag.Title = "Person";
 }
 <form id="form" class="needs-validation">
@@ -9,31 +9,29 @@
         <input class="btn btn-secondary col-sm-1 m-2" type="button" id="btnRefresh" value="Refresh" />
         <strong id="resultMessage" class="col-sm-1 m-2 text-secondary" style="opacity: 0; transition: opacity 0.5s;"></strong>
     </div>
+
     <div class="form-group position-relative">
         <input hidden id="id" />
         <div>
-            <div class="row">
-                <div class="col">
-                    <label class="fw-bold">FirstName</label>
-                </div>
-                <div class="col">
-                    <label class="fw-bold">LastName</label>
-                </div>
-                <div class="col">
-                    <label class="fw-bold">Email</label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <label class="fw-bold" for="firstName">FirstName</label>
                     <input id="firstName" type="text" class="form-control" placeholder="first name ..." autocomplete="off" />
                     <div id="firstNameValidationMessage" class="invalid-tooltip"></div>
                 </div>
+            </div>
 
-                <div class="col">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <label class="fw-bold" for="lastName">LastName</label>
                     <input id="lastName" type="text" class="form-control" placeholder="last name ..." autocomplete="off" />
                     <div id="lastNameValidationMessage" class="invalid-tooltip"></div>
                 </div>
-                <div class="col">
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-12">
+                    <label class="fw-bold" for="email">Email</label>
                     <input id="email" type="text" class="form-control" placeholder="email ..." autocomplete="off" />
                     <div id="emailValidationMessage" class="invalid-tooltip"></div>
                 </div>
@@ -49,15 +47,9 @@
                 <th>
                     <input type="checkbox" class="form-check-input" id="selectAll">
                 </th>
-                <th>
-                    First Name
-                </th>
-                <th>
-                    Last Name
-                </th>
-                <th>
-                    Email
-                </th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
                 <th></th>
             </tr>
         </thead>
@@ -74,8 +66,7 @@
                 <h5 class="modal-title">Delete Confirm</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <div id="deleteConfirmModalBody" class="modal-body">
-            </div>
+            <div id="deleteConfirmModalBody" class="modal-body"></div>
             <div class="modal-footer">
                 <input hidden id="inDeleteConfirmModalId" />
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>

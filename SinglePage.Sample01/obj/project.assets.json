@@ -4012,11 +4012,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PracticeFullStack\\GitSinglePage\\MVCSinglePage2\\SinglePage.Sample01\\SinglePage.Sample01.csproj",
+      "projectUniqueName": "C:\\Users\\Soheila\\source\\repos\\FinalSinglepageprj\\SinglePage.Sample01\\SinglePage.Sample01.csproj",
       "projectName": "SinglePage.Sample01",
-      "projectPath": "D:\\PracticeFullStack\\GitSinglePage\\MVCSinglePage2\\SinglePage.Sample01\\SinglePage.Sample01.csproj",
+      "projectPath": "C:\\Users\\Soheila\\source\\repos\\FinalSinglepageprj\\SinglePage.Sample01\\SinglePage.Sample01.csproj",
       "packagesPath": "C:\\Users\\Soheila\\.nuget\\packages\\",
-      "outputPath": "D:\\PracticeFullStack\\GitSinglePage\\MVCSinglePage2\\SinglePage.Sample01\\obj\\",
+      "outputPath": "C:\\Users\\Soheila\\source\\repos\\FinalSinglepageprj\\SinglePage.Sample01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
